@@ -54,10 +54,11 @@ class MyDoCreateScriptAsset : EndNameEditAction
         string text = streamReader.ReadToEnd();
         streamReader.Close();
         string fileNameWithoutExtension = Path.GetFileNameWithoutExtension(pathName);
-        string[] arr = fileNameWithoutExtension.Split('_');
-        string newClassName = arr[arr.Length - 1];
+        //string[] arr = fileNameWithoutExtension.Split('_');
+        //string newClassName = arr[arr.Length - 1];
 		//替换文件名
-        text = Regex.Replace(text, "#ClassName#", newClassName);
+        //text = Regex.Replace(text, "#ClassName#", newClassName);
+        text = Regex.Replace(text, "#ClassName#", fileNameWithoutExtension);
         bool encoderShouldEmitUTF8Identifier = true;
         bool throwOnInvalidBytes = false;
         UTF8Encoding encoding = new UTF8Encoding(encoderShouldEmitUTF8Identifier, throwOnInvalidBytes);
