@@ -1,3 +1,11 @@
+/****************************************************
+	文件：Script_04_08.cs
+	作者：JiahaoWu
+	邮箱: jiahaodev@163.ccom
+	日期：2019/11/27 0:12   	
+	功能：4.4.2 私有序列化数据
+    核心：OnInspectorGUI ()。 在加载属性面板时，获取序列化的数据，并填充显示
+*****************************************************/
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -17,7 +25,7 @@ public class Script_04_08 : MonoBehaviour
 
 #if UNITY_EDITOR
 [CustomEditor(typeof(Script_04_08))]
-public class ScriptInsector:Editor
+public class ScriptInsector_Script_04_08:Editor
 {
 	public override void OnInspectorGUI ()
 	{

@@ -1,3 +1,10 @@
+/****************************************************
+	文件：Script_04_11.cs
+	作者：JiahaoWu
+	邮箱: jiahaodev@163.ccom
+	日期：2019/11/27 0:29   	
+	功能：4.4.5 序列化/反序列化监听
+*****************************************************/
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

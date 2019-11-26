@@ -1,3 +1,11 @@
+/****************************************************
+	文件：Script_04_16.cs
+	作者：JiahaoWu
+	邮箱: jiahaodev@163.ccom
+	日期：2019/11/27 2:00   	
+	功能：4.4.10 CustomYieldInstruction  自定义挂起指令
+    核心： keepWaiting属性 的  true /false
+*****************************************************/
 using System.Collections;
 using UnityEngine;
 using UnityEngine.Events;
@@ -15,7 +23,7 @@ public class Script_04_16 : MonoBehaviour {
 	}
 
 
-
+    //派生：自定义挂起指令
 	public class CustomWait : CustomYieldInstruction
     {
         public override bool keepWaiting

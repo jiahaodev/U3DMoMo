@@ -1,3 +1,11 @@
+/****************************************************
+	文件：Script_04_17.cs
+	作者：JiahaoWu
+	邮箱: jiahaodev@163.ccom
+	日期：2019/11/27 2:02   	
+	功能：4.4.11 工作线程 Job System
+    核心：主线程 和 工作线程，需要用Native来传递数据
+*****************************************************/
 using Unity.Collections;
 using Unity.Jobs;
 using UnityEngine;

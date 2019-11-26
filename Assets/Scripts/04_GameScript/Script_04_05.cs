@@ -1,3 +1,10 @@
+/****************************************************
+	文件：Script_04_05.cs
+	作者：JiahaoWu
+	邮箱: jiahaodev@163.ccom
+	日期：2019/11/26 23:57   	
+	功能：4.2.4 停止协程任务
+*****************************************************/
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

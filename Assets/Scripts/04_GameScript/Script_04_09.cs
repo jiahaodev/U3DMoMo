@@ -1,3 +1,11 @@
+/****************************************************
+	文件：Script_04_09.cs
+	作者：JiahaoWu
+	邮箱: jiahaodev@163.ccom
+	日期：2019/11/27 0:23   	
+	功能：兼容源生绘制 与 自定义渲染
+    核心：源生 ：EditorGUILayout.PropertyField
+*****************************************************/
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

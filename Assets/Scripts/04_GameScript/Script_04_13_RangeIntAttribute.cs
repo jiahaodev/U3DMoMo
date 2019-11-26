@@ -1,3 +1,10 @@
+/****************************************************
+	文件：Script_04_13_RangeIntAttribute.cs
+	作者：JiahaoWu
+	邮箱: jiahaodev@163.ccom
+	日期：2019/11/27 1:27   	
+	功能：4.4.7 脚本的Attributes特性 【了解即可】
+*****************************************************/
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

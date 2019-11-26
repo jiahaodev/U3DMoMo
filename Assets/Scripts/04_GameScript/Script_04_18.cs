@@ -1,3 +1,10 @@
+/****************************************************
+	文件：Script_04_18.cs
+	作者：JiahaoWu
+	邮箱: jiahaodev@163.ccom
+	日期：2019/11/27 2:19   	
+	功能：4.5.6 日志监听 + 将错误日志输出到窗口
+*****************************************************/
 using System;
 using System.Collections.Generic;
 using UnityEngine;

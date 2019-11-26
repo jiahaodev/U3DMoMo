@@ -1,3 +1,10 @@
+/****************************************************
+	文件：Script_04_06.cs
+	作者：JiahaoWu
+	邮箱: jiahaodev@163.ccom
+	日期：2019/11/27 0:01   	
+	功能：4.2.5 使用OnGUI显示FPS  【了解即可】
+*****************************************************/
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
